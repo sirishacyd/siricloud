@@ -14,7 +14,7 @@ export const dataService = {
 }
 
 export const apiConfig = {
-    endpointURL: "http://siricloud.app"
+    endpointURL: "http://localhost:3000"
 }
 
 function getUserData(userName) {
