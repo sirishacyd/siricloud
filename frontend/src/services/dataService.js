@@ -14,7 +14,7 @@ export const dataService = {
 }
 
 export const apiConfig = {
-    endpointURL: "http://localhost:3000"
+    endpointURL: "https://saraswati.app/api"
 }
 
 function getUserData(userName) {
