@@ -16,8 +16,8 @@ function LogInPage() {
                 <Card.Header>Welcome to Siri Cloud</Card.Header>
                 <Card.Body>
                     <Card.Text></Card.Text>
-                    <Button  variant="primary" href="https://cmpe281siri.auth.us-west-1.amazoncognito.com/login?client_id=i2r4bvb6ektuud48bj2gu0hr5&response_type=token&redirect_uri=http://localhost:3000/callback">
-                        LogIn / SignUp  {/* <a href="https://cmpe281siri.auth.us-west-1.amazoncognito.com/login?client_id=i2r4bvb6ektuud48bj2gu0hr5&response_type=token&redirect_uri=http://localhost:3000/callback"> LOGIN</a> */}
+                    <Button  variant="primary" href="https://cmpe281siri.auth.us-west-1.amazoncognito.com/login?client_id=i2r4bvb6ektuud48bj2gu0hr5&response_type=token&redirect_uri=https://saraswati.app/">
+                        LogIn / SignUp  {/* <a href="https://cmpe281siri.auth.us-west-1.amazoncognito.com/login?client_id=i2r4bvb6ektuud48bj2gu0hr5&response_type=token&redirect_uri=https://saraswati.app"> LOGIN</a> */}
                     </Button>
                 </Card.Body>
             </Card>
