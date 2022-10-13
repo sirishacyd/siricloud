@@ -41,7 +41,7 @@ function deleteFileTemp(path) {
   }
 }
 
-app.post('/upload_file', function (req, res) {
+app.post('/api/upload_file', function (req, res) {
 
   if (!req.files || Object.keys(req.files).length === 0) {
     return res.status(400).send('No files were uploaded.');
@@ -133,7 +133,7 @@ app.post('/upload_file', function (req, res) {
 
 
 
-app.delete('/delete_file', function (req, res) {
+app.delete('/api/delete_file', function (req, res) {
   console.log("REQUEST param ", req.body);
   if (!req.body || !req.body.hasOwnProperty('deleteFile')) {
     return res.status(400).send('deleteFile missing in body');
@@ -185,7 +185,7 @@ app.delete('/delete_file', function (req, res) {
   }
 });
 
-app.get('/getUserData/:userName', function (req, res) {
+app.get('/api/getUserData/:userName', function (req, res) {
   var docClient = new AWS.DynamoDB.DocumentClient();
   
   var table = "UserData";
@@ -215,7 +215,7 @@ app.get('/getUserData/:userName', function (req, res) {
   
 });
 
-app.get('/getAdminData', function (req, res) {
+app.get('/api/getAdminData', function (req, res) {
   var docClient = new AWS.DynamoDB.DocumentClient();
   var params = {
     TableName: 'UserData',
