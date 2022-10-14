@@ -9,7 +9,7 @@ Siri Cloud, is a dropbox clone, which lets user upload files and provides softwa
 
 We have both backend and frontend in this application
 
-Instructions to run Backend.
+### Instructions to run Backend.
 
 ```
 cd backend
@@ -19,7 +19,7 @@ node src/app.js
 ```
 
 
-Instructions to run Frontend.
+### Instructions to run Frontend.
 
 ```
 cd frontend
@@ -27,23 +27,15 @@ npm install
 npm start
 ```
 
-# Deliverables :
+### Deliverables :
 
-Application is Hosted at https://saraswati.app/
+- Application is Hosted at [https://saraswati.app/](https://saraswati.app/)
+- Code is committed at [https://github.com/sirishacyd/siricloud](https://github.com/sirishacyd/siricloud)
+- Demo : [https://youtu.be/efOvPKLi7zA] (https://youtu.be/efOvPKLi7zA)
 
-Code is committed at https://github.com/sirishacyd/siricloud
+### Tech Stack :
 
-Demo : https://youtu.be/efOvPKLi7zA 
-
-# Tech Stack :
-
-Frontend : react.js application
-
-Backend : node.js application
-
-Database : DynamoDB
-
-File Hosting : Amazon S3
-
-
-
+- Frontend : react.js application
+- Backend : node.js application
+- Database : DynamoDB
+- File Hosting : Amazon S3
