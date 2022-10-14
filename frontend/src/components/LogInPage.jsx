@@ -11,19 +11,16 @@ function LogInPage() {
             <Navbar bg="light" variant="light">
                 <Navbar.Brand>Siri Cloud</Navbar.Brand>
             </Navbar>
-
-            <Card style={{ width: '20rem', margin: "300px", justifyContent: "left"}}>
+            <Card style={{ width: '75rem', margin: "250px", justifyContent: "center"}}> 
                 <Card.Header>Welcome to Siri Cloud</Card.Header>
                 <Card.Body>
-                    <Card.Text></Card.Text>
+                    <Card.Text>Siri Cloud </Card.Text>
                     <Button  variant="primary" href="https://cmpe281siri.auth.us-west-1.amazoncognito.com/login?client_id=i2r4bvb6ektuud48bj2gu0hr5&response_type=token&redirect_uri=https://saraswati.app/">
-                        LogIn / SignUp  {/* <a href="https://cmpe281siri.auth.us-west-1.amazoncognito.com/login?client_id=i2r4bvb6ektuud48bj2gu0hr5&response_type=token&redirect_uri=https://saraswati.app"> LOGIN</a> */}
-                    </Button>
+                        LogIn / SignUp  <a href="https://cmpe281siri.auth.us-west-1.amazoncognito.com/login?client_id=i2r4bvb6ektuud48bj2gu0hr5&response_type=token&redirect_uri=https://saraswati.app"></a>
+                    </Button> 
                 </Card.Body>
             </Card>
-
         </div>
-
     )
 }
 
