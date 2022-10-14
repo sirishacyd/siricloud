@@ -23,7 +23,6 @@ const routing = (
                 <Route path="/" component={App}/>
                 <Route path="/login" component={LogInPage}/>
                 <Route path="/user" component={UserPage} />
-
             </Switch>
         </div>
     </BrowserRouter>

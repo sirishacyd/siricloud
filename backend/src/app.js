@@ -219,10 +219,6 @@ app.get('/api/getAdminData', function (req, res) {
   var docClient = new AWS.DynamoDB.DocumentClient();
   var params = {
     TableName: 'UserData',
-    /*  Key: {
-       'userId': {N: '001'}
-     },
-     ProjectionExpression: 'ATTRIBUTE_NAME' */
   };
 
   // Call DynamoDB to read the item from the table
@@ -237,6 +233,5 @@ app.get('/api/getAdminData', function (req, res) {
     }
   });
 });
-
 
 app.listen(port, () => console.log(`cloud project app listening on port ${port}!`))
