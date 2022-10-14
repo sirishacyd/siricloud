@@ -31,7 +31,7 @@ npm start
 
 - Application is Hosted at [https://saraswati.app/](https://saraswati.app/)
 - Code is committed at [https://github.com/sirishacyd/siricloud](https://github.com/sirishacyd/siricloud)
-- Demo at Youtube: [https://youtu.be/efOvPKLi7zA](https://youtu.be/efOvPKLi7zA)
+- Video Demo at: [https://bit.ly/3rSTn5Z](https://bit.ly/3rSTn5Z)
 
 ### Tech Stack :
 
