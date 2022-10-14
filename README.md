@@ -26,3 +26,18 @@ cd frontend
 npm install
 npm start
 ```
+
+Deliverables :
+
+Application is Hosted at https://saraswati.app/
+Code is committed at https://github.com/sirishacyd/siricloud
+Demo : https://youtu.be/efOvPKLi7zA 
+
+Tech Stack :
+Frontend : react.js application
+Backend : node.js application
+Database : DynamoDB
+File Hosting : Amazon S3
+
+
+
