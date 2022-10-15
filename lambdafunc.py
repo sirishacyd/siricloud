@@ -29,13 +29,6 @@ def lambda_handler(event, context):
     sns_message = str("This Email Represent a File Status has been Changed in One of Your Bucket \n\n BUCKET NAME: "+ bucket +"\n\n FILE NAME: " + key + "\n\n OPERATION: " + eventname + "\n\n")
     try:
         print(eventname)
-        if eventname == "ObjectRemoved:Delete":
-            print("File is being Deleted")
-            sns_message += str("File Deleted")
-        else:
-            response = s3.get_object(Bucket=bucket, Key=key)
-            sns_message += str("FILE CONTENT TYPE: " + str(response['ContentType']) + "\n\nFILE CONTENT: " + str(response['Body'].read()))
-            print("CONTENT TYPE: " + response['ContentType'])
         print(str(sns_message))
         subject= "S3 Bucket[" + bucket + "] Event[" + eventname + "]"
         print(subject)
