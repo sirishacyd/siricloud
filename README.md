@@ -39,3 +39,6 @@ npm start
 - Backend : node.js application
 - Database : DynamoDB
 - File Hosting : Amazon S3
+
+
+
