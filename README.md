@@ -7,9 +7,10 @@
 * Siri Cloud, is an highly available, highly scalable web application, which lets users store their data in the cloud and access from anywhere they want. 
 *I Have leveraged the following services for various uses in my three tier web application architecture which has a front end that has authentication  by leveraging AWS Cognito. Backend that was hosted using  aws ec2 service with load balancer and auto scaling groups.  I have used dynamodb to store user data about all the files that are uploaded by the users. 
 
-![Diagram](/Users/siri/desktop/Diagram.jpg)
 
 
+
+![Diagram](https://user-images.githubusercontent.com/103618216/196087012-d2239dd7-4bb8-4d3d-8f60-6d451cdfbe55.jpg)
 
 ### AWS services used for project
 
