@@ -3,6 +3,7 @@
 *	Course: [Cloud Technologies](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE281.html)
 *	Student: [Sirisha Polisetty](https://www.linkedin.com/in/sirishapolisetty/)
 * Website Link: https://saraswati.app/
+* Demo Link: https://www.youtube.com/watch?v=lnRKVQaZ9bk
 
 ### Project Introduction
 
@@ -17,7 +18,7 @@ I Have leveraged the following services for various uses in my three tier web ap
 
 * EC2:used to host the frontend and backend of my application, leveraged the autoscaling groups, security groups, AMIs for design an highly scalable solution for my application 
  
-* ELB :Created an Classic Elastic load balancer attached to my EC2 auto scaling groups to server the user traffic .
+* ELB :Created an Classic Elastic load balancer attached to my EC2 auto scaling groups to server the user traffic.
 
 * Lambda : Aws lambda has been used to create a lambda function to alert admin whenever delete occurred due to S3 object store lifecycle expiry kicks in.
 
