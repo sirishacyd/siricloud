@@ -5,10 +5,7 @@
 
 ### Project Introduction
 * Siri Cloud, is an highly available, highly scalable web application, which lets users store their data in the cloud and access from anywhere they want. 
-*I Have leveraged the following services for various uses in my three tier web application architecture which has a front end that has authentication  by leveraging AWS Cognito. Backend that was hosted using  aws ec2 service with load balancer and auto scaling groups.  I have used dynamodb to store user data about all the files that are uploaded by the users. 
-
-
-
+I Have leveraged the following services for various uses in my three tier web application architecture which has a front end that has authentication  by leveraging AWS Cognito. Backend that was hosted using  aws ec2 service with load balancer and auto scaling groups.  I have used dynamodb to store user data about all the files that are uploaded by the users. 
 
 ![Diagram](https://user-images.githubusercontent.com/103618216/196087012-d2239dd7-4bb8-4d3d-8f60-6d451cdfbe55.jpg)
 
@@ -41,15 +38,15 @@
 
 
 ### Features:
-*User View
-*Admin view
-*Register to siricloud application
-*Sign in using username and password
-*View Details including file name, uploaded time, updated time ,file size,description
-*Upload the image
-*Edit the image
-*Delete the image
-*Logout
+* User View
+* Admin view
+* Register to siricloud application
+* Sign in using username and password
+* View Details including file name, uploaded time, updated time ,file size,description
+* Upload the image
+* Edit the image
+* Delete the image
+* Logout
 
 
 ### Instructions to run Backend.
@@ -88,20 +85,37 @@ npm start
 
 * Home Page/Landing Page:
 
-* Self-Registration Page:  
+<img width="1056" alt="Home" src="https://user-images.githubusercontent.com/103618216/196087805-40f24eaa-232c-4592-befb-344af64dc3c2.png">
 
-* Custom Login with Google Login Enabled:
+* Self-Registration Page:
 
-* File Upload: 
+<img width="810" alt="Self" src="https://user-images.githubusercontent.com/103618216/196090773-714aa323-f9ea-4941-8994-283ac8a7ae99.png">
+
+* File Upload:
+
+<img width="846" alt="upload" src="https://user-images.githubusercontent.com/103618216/196090791-6f5a0b0e-fbb2-48e7-bb2a-43ded74f8b4f.png">
+
 
 * File Download:
 
+<img width="1040" alt="Download1" src="https://user-images.githubusercontent.com/103618216/196090822-77afc629-b2e4-4039-b68c-c022445aa620.png">
+
 * File Download Routed to AWS Cloudfront with Restricted access only from cloudfront:
+
+<img width="956" alt="Download2" src="https://user-images.githubusercontent.com/103618216/196090835-42b1d205-6433-42ac-80d1-d69b8ede27fe.png">
 
 * File Edit: 
 
+<img width="957" alt="Edit" src="https://user-images.githubusercontent.com/103618216/196090867-75dcf510-0ce3-45b9-b1a0-bc2ea44b785f.png">
+
+
 * File Delete:
 
-* Before Delete:
+* Before Delete
+
+<img width="980" alt="Delete" src="https://user-images.githubusercontent.com/103618216/196090900-230ce976-20f6-4c87-a46e-e28cbccaf2d2.png">
 
 * After Delete:
+
+<img width="1041" alt="del" src="https://user-images.githubusercontent.com/103618216/196090993-2d106054-ab03-4372-96fa-07f2a7c62118.png">
+
