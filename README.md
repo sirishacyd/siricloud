@@ -16,8 +16,10 @@
 * EC2:used to host the frontend and backend of my application, leveraged the autoscaling groups, security groups, AMIs for design an highly scalable solution for my application 
  
 * ELB :Created an Classic Elastic load balancer attached to my EC2 auto scaling groups to server the user traffic .
-Lambda : Aws lambda has been used to create a lambda function to alert admin whenever delete occurred due to S3 object store lifecycle expiry kicks in.
-AutoScaling Group :  An auto scaling group has been created with 1 instance for my application that can scale up to three instances based on the traffic that my application is receiving
+
+* Lambda : Aws lambda has been used to create a lambda function to alert admin whenever delete occurred due to S3 object store lifecycle expiry kicks in.
+
+* AutoScaling Group :  An auto scaling group has been created with 1 instance for my application that can scale up to three instances based on the traffic that my application is receiving
 
 * DynamoDB (Single AZ RDS):I have used dynamo DB with multi-region replication due to cost limitations with RDS.  I have used dynamo DB to store the userdata and upload data for my user and leveraged that to manage the various user operations like create, update and delete.
 
@@ -81,11 +83,11 @@ npm start
 - File Hosting : Amazon S3
 
 
-### Documentation Proof as per the provided Requirements
+### Screenshots
 
 * Home Page/Landing Page:
 
-* Self-Registration Page:  This is where users can sign up:
+* Self-Registration Page:  
 
 * Custom Login with Google Login Enabled:
 
