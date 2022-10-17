@@ -2,14 +2,18 @@
 *	University Name: San Jose State University http://www.sjsu.edu/ 
 *	Course: [Cloud Technologies](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE281.html)
 *	Student: [Sirisha Polisetty](https://www.linkedin.com/in/sirishapolisetty/)
+* Website Link: https://saraswati.app/
 
 ### Project Introduction
+
 * Siri Cloud, is an highly available, highly scalable web application, which lets users store their data in the cloud and access from anywhere they want. 
-I Have leveraged the following services for various uses in my three tier web application architecture which has a front end that has authentication  by leveraging AWS Cognito. Backend that was hosted using  aws ec2 service with load balancer and auto scaling groups.  I have used dynamodb to store user data about all the files that are uploaded by the users. 
+I Have leveraged the following services for various uses in my three tier web application architecture which has a front end that has authentication  by leveraging AWS Cognito. Backend that was hosted using  aws ec2 service with load balancer and auto scaling groups.  I have used dynamodb to store user data about all the files that are uploaded by the users.
+
 
 ![Diagram](https://user-images.githubusercontent.com/103618216/196087012-d2239dd7-4bb8-4d3d-8f60-6d451cdfbe55.jpg)
 
 ### AWS services used for project
+
 
 * EC2:used to host the frontend and backend of my application, leveraged the autoscaling groups, security groups, AMIs for design an highly scalable solution for my application 
  
@@ -38,6 +42,8 @@ I Have leveraged the following services for various uses in my three tier web ap
 
 
 ### Features:
+
+```
 * User View
 * Admin view
 * Register to siricloud application
@@ -47,7 +53,7 @@ I Have leveraged the following services for various uses in my three tier web ap
 * Edit the image
 * Delete the image
 * Logout
-
+```
 
 ### Instructions to run Backend.
 
@@ -68,20 +74,25 @@ npm start
 ```
 
 ### Deliverables :
+```
 
 - Application is Hosted at [https://saraswati.app/](https://saraswati.app/)
 - Code is committed at [https://github.com/sirishacyd/siricloud](https://github.com/sirishacyd/siricloud)
+```
 
 
 ### Tech Stack :
+```
 
 - Frontend : react.js application
 - Backend : node.js application
 - Database : DynamoDB
 - File Hosting : Amazon S3
+```
 
 
 ### Screenshots
+
 
 * Home Page/Landing Page:
 
@@ -111,11 +122,12 @@ npm start
 
 * File Delete:
 
-* Before Delete
+*     Before Delete
 
 <img width="980" alt="Delete" src="https://user-images.githubusercontent.com/103618216/196090900-230ce976-20f6-4c87-a46e-e28cbccaf2d2.png">
 
-* After Delete:
+*     After Delete:
 
 <img width="1041" alt="del" src="https://user-images.githubusercontent.com/103618216/196090993-2d106054-ab03-4372-96fa-07f2a7c62118.png">
+
 
