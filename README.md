@@ -3,7 +3,7 @@
 *	Course: [Cloud Technologies](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE281.html)
 *	Student: [Sirisha Polisetty](https://www.linkedin.com/in/sirishapolisetty/)
 * Website Link: https://saraswati.app/
-* Demo Link: https://www.youtube.com/watch?v=lnRKVQaZ9bk
+* Demo Link: https://bit.ly/3MEf1V6
 
 ### Project Introduction
 
@@ -75,16 +75,14 @@ npm start
 ```
 
 ### Deliverables :
-```
 
 - Application is Hosted at [https://saraswati.app/](https://saraswati.app/)
 - Code is committed at [https://github.com/sirishacyd/siricloud](https://github.com/sirishacyd/siricloud)
-```
+
 
 
 ### Tech Stack :
 ```
-
 - Frontend : react.js application
 - Backend : node.js application
 - Database : DynamoDB
@@ -94,10 +92,9 @@ npm start
 
 ### Screenshots
 
+* Home Page
+<img width="1082" alt="Screen Shot 2022-10-17 at 8 00 59 PM" src="https://user-images.githubusercontent.com/103618216/196325751-fd2045b3-fda3-4c32-97fa-53b67719a7f4.png">
 
-* Home Page/Landing Page:
-
-<img width="1056" alt="Home" src="https://user-images.githubusercontent.com/103618216/196087805-40f24eaa-232c-4592-befb-344af64dc3c2.png">
 
 * Self-Registration Page:
 
@@ -123,11 +120,11 @@ npm start
 
 * File Delete:
 
-*     Before Delete
+###### Before Delete
 
 <img width="980" alt="Delete" src="https://user-images.githubusercontent.com/103618216/196090900-230ce976-20f6-4c87-a46e-e28cbccaf2d2.png">
 
-*     After Delete:
+###### After Delete:
 
 <img width="1041" alt="del" src="https://user-images.githubusercontent.com/103618216/196090993-2d106054-ab03-4372-96fa-07f2a7c62118.png">
 
